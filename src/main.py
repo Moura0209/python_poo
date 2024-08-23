@@ -41,7 +41,7 @@ if __name__ == "__main__":
     carro2 = Carro(nm_modelo, nm_marca, nm_cor, kms, 0, False)
 
     '''
-    Controlando o carro até ele atingir 10000 Km
+    
     '''
     while carro1.odometro < 600 and carro2.odometro < 600:
         try:
